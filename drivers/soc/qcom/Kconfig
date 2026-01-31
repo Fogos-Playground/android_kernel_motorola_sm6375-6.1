@@ -26,6 +26,13 @@ config ARCFOX_DTB
 	help
 		Only include Motorola Arcfox device specific device tree.
 
+config FOGOS_DTB
+	depends on MMI_DEVICE_DTBS
+	default n
+	bool "Motorola Mobility Fogos Device DTB"
+	help
+		Only include Motorola Fogos device specific device tree.
+
 config MALMO_DTB
 	depends on MMI_DEVICE_DTBS
 	default n
